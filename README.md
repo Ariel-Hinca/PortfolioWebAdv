@@ -10,7 +10,7 @@ Dit portfolio wordt regelmatig bijgewerkt tot het inleverdatum 07/06.
 ## Voorbeelden
 ### Elementen Selecteren
 **Beschrijving:**
-Dit voorbeeld laat zien hoe je een element kunt selecteren met behulp van 'getElementById'. Het selecteert de hoofdtitel '<h1>' en logt de tekstinhoud naar de console.
+Dit voorbeeld laat zien hoe je een element kunt selecteren met behulp van 'getElementById'. Het selecteert de hoofdtitel "h1" en logt de tekstinhoud naar de console.
 
 ### Elementen Mnipuleren
 **Beschrijving:**
