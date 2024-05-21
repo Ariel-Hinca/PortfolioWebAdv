@@ -14,8 +14,20 @@ Dit voorbeeld laat zien hoe je een element kunt selecteren met behulp van 'getEl
 
 ### Elementen Mnipuleren
 **Beschrijving:**
-Dit voorbeeld demonstreert hoe je de tekst van een element kunt veranderen. Een zin '<p>' wordt geselecteerd en de tekstinhoud wordt gewijzigd naar 'Dit is een nieuwe zin'.
+Dit voorbeeld demonstreert hoe je de tekst van een element kunt veranderen. Een zin 'p' wordt geselecteerd en de tekstinhoud wordt gewijzigd naar 'Dit is een nieuwe zin'.
 
 ### Event aan een Element Koppelen
 **Beschrijving:**
 Dit voorbeeld toont hoe je een klikgebeurtenus koppelt aan een knop. Wanner men op de knop klikt, verschijnt er een aler met de boodschap 'Button is geklikt!'.
+
+### Formulier Valideren
+**Beschrijving:**
+Dit voorbeeld valideert een formulier waar men controleert de invoer van een geldig e-mailadres als deze zowel een '@' als een '.com' bevat. Als de invoer/email ongeldig blijkt te zijn, dan wordt een foutbericht weergegeven en wordt het formulier niet verzonden.
+
+### Gebruiken van een constante
+**Beschrijving:**
+Dit voorbeeld toont hoe je een constante kunt gebruiken in Javascript. De tekst 'h1' wordt ingesteld met een constante boodschap.
+
+### Gebruiken van Template Literals
+**Beschrijving:**
+Dit voorbeeld laat zien hoe je template literals kunt gebruiken om een gepersonaliseerde begroeting te maken.
