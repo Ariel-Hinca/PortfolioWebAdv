@@ -45,3 +45,20 @@ Ik heb voor de methode de volgende link als gids gebruikt: https://developer.moz
 ### Iteration over een Array
 **Beschrijving:**
 Dit voorbeeld toont de 'for...of' loop voor een eenvoudige iteratie.
+
+### Arrow Function
+**Beschrijving:**
+Dit voorbeeld toont hoe je een arrow functie kunt gebruiken om twee getallen op te tellen.
+
+### Callback Function
+**Beschrijving:**
+Dit voorbeeld laat zien hoe je twee verschillende callback functies asynchroon kunt oproepen binnen een andere functie om wiskundige operaties uit te voeren.
+
+Ik heb de volgende link als gids gebruikt: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce](https://builtin.com/software-engineering-perspectives/callback-function)
+
+### Promise
+**Beschrijving:**
+Dit voorbeeld demonstreert het gebruik van een promise om een bericht te generen aan de hand van een boolean, de uitvoerende code neemt ook 2 seconden de tijd om zijn resultaat te produceren en daarna verschijnt deze op de browser door middel van de consuming code naargelang de boolean.
+De 'then-methode' wordt gebruikt om de uitkomst van de promise af te handelen, terwijl de 'catch-methode' wordt gebruikt om eventuele fouten te behandelen.
+
+Ik heb de volgende link als gids gebruikt: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce](https://www.javascripttutorial.net/es6/javascript-promises/)
