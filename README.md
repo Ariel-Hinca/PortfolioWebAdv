@@ -31,3 +31,17 @@ Dit voorbeeld toont hoe je een constante kunt gebruiken in Javascript. De tekst 
 ### Gebruiken van Template Literals
 **Beschrijving:**
 Dit voorbeeld laat zien hoe je template literals kunt gebruiken om een gepersonaliseerde begroeting te maken.
+
+### Destructuring
+**Beschrijving:**
+Dit voorbeeld toont zowel array destructuring als object destructuring, het laat zien hoe je elementen uit een array en eigenschappen uit een object kunt uithalen.
+
+### Spread & Rest Operator
+**Beschrijving:**
+In dit voorbeeld wordt eerst de spread-operator gebruikt om een array uit te breiden met meer getallen, en daarna de rest-operator om het gemiddelde te berekenen van een variabel aantal getallen die aan een functie worden doorgegeven. Bij de rest-operator heb ik ook een extra methode toegepast om de som van alle getallen in de array te berekenen, namelijk de reduce-methode.
+
+Ik heb voor de methode de volgende link als gids gebruikt: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+### Iteration over een Array
+**Beschrijving:**
+Dit voorbeeld toont de 'for...of' loop voor een eenvoudige iteratie.
