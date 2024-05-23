@@ -62,3 +62,28 @@ Dit voorbeeld demonstreert het gebruik van een promise om een bericht te generen
 De 'then-methode' wordt gebruikt om de uitkomst van de promise af te handelen, terwijl de 'catch-methode' wordt gebruikt om eventuele fouten te behandelen.
 
 Ik heb de volgende link als gids gebruikt: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce](https://www.javascripttutorial.net/es6/javascript-promises/)
+
+### Consumer methods
+**Beschrijving:**
+Dit voorbeeld toont het gebruik van 'then', 'catch' en 'finally' methoden met een eenvoudige Promise.
+-'then': geeft de resolve bericht weer als de Math.random getal groter is dan 0.5.
+-'catch': geeft de reject bericht weer als de Math.random getal kleiner is dan 0.5.
+-'finally': ongeacht het resultaat zorgt 'finally' voor een boodschap op de console als de Promise is afgehandeld.
+
+Ik heb de volgende link als gids gebruikt om met andere methodes te werken van het object Math: https://www.w3schools.com/jsref/jsref_random.asp
+
+### Async & Await
+**Beschrijving:**
+
+Dit voorbeeld toont aan het gebruik van 'async'/'await' om een asynchrone functie te maken. De asynchrone functie 'myPromise' geeft een Promise terug met een resolve boodschap die gelinkt wordt aan de/het DOM.
+
+Ik heb de volgende link als gids gebruikt: https://www.w3schools.com/js/js_async.asp
+
+### Self-executing function
+**Beschrijving:**
+
+In dit voorbeeld wordt er een simpele self-executing functie gemaakt die aan de hand vaan een 'async'/'await functie met een Promise ingebouwd die een boodschat binnen een alert genereert.
+
+**Opmerking:**
+
+Blijkbaar worden zulke functies 'IIFE or Immediately Invoked Function Expression' genoemd. Zie link: https://developer.mozilla.org/en-US/docs/Glossary/IIFE
