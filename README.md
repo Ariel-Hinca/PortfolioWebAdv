@@ -85,5 +85,23 @@ Ik heb de volgende link als gids gebruikt: https://www.w3schools.com/js/js_async
 In dit voorbeeld wordt er een simpele self-executing functie gemaakt die aan de hand vaan een 'async'/'await functie met een Promise ingebouwd die een boodschat binnen een alert genereert.
 
 **Opmerking:**
-
 Blijkbaar worden zulke functies 'IIFE or Immediately Invoked Function Expression' genoemd. Zie link: https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
+### Fetch om data op te halen
+**Beschrijving:**
+Dit voorbeeld toont het gebruik van de fetch methode om HTML inhoud te vragen van een URL, hoe ook dit JSON inhoudt omgezet (parsen) wordt in een structuur die door javascript kan worden gebruikt om deze te kunnen weergeven in de/het DOM.
+
+Ik heb de volgende link als gids gebruikt: https://www.geeksforgeeks.org/javascript-fetch-method/
+
+**Opmerking:**
+Ik zat hier vast en kon de 'h1' van de url niet terug krijgen en daarom heb ik hulp aan AI gevraagd. Zie de link: https://chatgpt.com/share/d48e8010-3dae-48fe-8e84-a3e798a7408d
+
+### JSON manipuleren en weergeven
+**Beschrijving:**
+In dit voorbeeld wordt er een fetch-verzoek gedaan naar de opgegeven URL om de JSON-gegevens op te halen. De JSON-data wordt omgezet naar een leesbare string met behulp van JSON.stringify() en wordt vervolgens weergegeven in een specifiek DOM-element.
+
+Ik heb de volgende link als gids gebruikt: https://javascript.info/json
+
+### Basis CSS Animatie
+**Beschrijving:**
+Dit voorbeeld toont een eenvoudige CSS-animatie die een knop van boven naar onder en dan naar rechts verplaatst in een infinity loop. De animatie wordt gedefinieerd met behulp van keyframes.
