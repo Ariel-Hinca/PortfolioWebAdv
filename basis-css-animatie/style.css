@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: darkgreen;
+    color: antiquewhite;
+    border-radius: 100px;
+    cursor: default;
+    display: block;
+    margin: 20px auto;
+
+    /*Transitions*/
+    /*Trage transitie van groen naar roos in een interval van 2 seconden*/
+    transition-property: background-color;
+    transition-duration: 2000ms; /*2 secondjes*/
+    transition-timing-function: ease-in-out;
+    transition: transform 4s;
+    transform-origin: bottom right 60px; /*bepaalt waar de tranformatie van toepassing ga zijn*/
+    /*Keyframes*/
+    animation: moving 4s infinite alternate; /*naam van de gekozen keyframe functie wordt dus hier geschreven om deze effectief te laten werken*/
+
+}
+ /*keyframe functie wordt gemaakt*/
+@keyframes moving {
+    0%{transform: translatey(0);}
+    50%{transform: translateY(220px);}
+    100%{transform: translate(100px,220px);}
+}
+
+
+button:hover {
+    background: palevioletred;
+
+    /*Transforms: scale, translate rotate en skew*/
+    /*transform: scale(2, 2); /*knop wordt 2x zo groot langs de x en y-as*/
+    /*transform: translateY(100px); /*knop wordt vertikaal 10px verplaatst*/
+    /*transform: rotate(180deg);*/
+    /*transform: skew(20deg);*/
+
+}
+
