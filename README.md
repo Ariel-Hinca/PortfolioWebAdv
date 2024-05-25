@@ -105,3 +105,7 @@ Ik heb de volgende link als gids gebruikt: https://javascript.info/json
 ### Basis CSS Animatie
 **Beschrijving:**
 Dit voorbeeld toont een eenvoudige CSS-animatie die een knop van boven naar onder en dan naar rechts verplaatst in een infinity loop. De animatie wordt gedefinieerd met behulp van keyframes.
+
+### Gebruiken van een flexbox of CSS grid
+**Beschrijving:**
+In dit voorbeeld wordt een kruis met een boodschap gecreëerd met behulp van flexbox- en griddisplays. Flexbox wikkelt de body van de HTML om verticaal drie containers op een rij te zetten, en grid verdeelt binnen elke container zijn eigen items over het gekozen aantal kolommen en rijen.
