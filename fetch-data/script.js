@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let fetchData = document.getElementById('fetchData');
 
     /*
-    Ik zat hier vast en kon de 'h1' van de url niet terug krijgen heb hulp aan AI gevraagd.
+    Ik zat hier vast en kon de 'h1' van de url niet terug krijgen en daarom heb ik hulp aan AI gevraagd.
     Zie de link: https://chatgpt.com/share/d48e8010-3dae-48fe-8e84-a3e798a7408d
 
     fetch('https://jsonplaceholder.typicode.com/')

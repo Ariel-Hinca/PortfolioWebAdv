@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.containerTop {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    grid-template-rows: 37.5px 37.5px 37.5px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+    gap: 10px;
+}
+
+.item-a,
+.item-b,
+.item-c,
+.item-d,
+.item-e,
+.item-f,
+.item-g,
+.item-h,
+.item-i,
+.item-k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.item-a {
+    grid-area: header;
+}
+
+.item-b {
+    grid-area: main;
+}
+
+.item-d {
+    grid-area: footer;
+}
+
+.containerMiddle {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 25px 25px 25px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    gap: 10px;
+}
+
+.item-e {
+    grid-area: header;
+}
+
+.item-f {
+    grid-area: main;
+}
+
+
+.item-g {
+    grid-area: footer;
+}
+
+.containerBottom {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    grid-template-rows: 70px 70px 70px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+    gap: 10px;
+}
+
+
+.item-h {
+    grid-area: header;
+}
+
+.item-i {
+    grid-area: main;
+}
+
+.item-k {
+    grid-area: footer;
+}
