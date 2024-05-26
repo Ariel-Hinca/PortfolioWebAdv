@@ -66,9 +66,9 @@ Ik heb de volgende link als gids gebruikt: [https://developer.mozilla.org/en-US/
 ### Consumer methods
 **Beschrijving:**
 Dit voorbeeld toont het gebruik van 'then', 'catch' en 'finally' methoden met een eenvoudige Promise.
--'then': geeft de resolve bericht weer als de Math.random getal groter is dan 0.5.
--'catch': geeft de reject bericht weer als de Math.random getal kleiner is dan 0.5.
--'finally': ongeacht het resultaat zorgt 'finally' voor een boodschap op de console als de Promise is afgehandeld.
+- 'then': geeft de resolve bericht weer als de Math.random getal groter is dan 0.5.
+- 'catch': geeft de reject bericht weer als de Math.random getal kleiner is dan 0.5.
+- 'finally': ongeacht het resultaat zorgt 'finally' voor een boodschap op de console als de Promise is afgehandeld.
 
 Ik heb de volgende link als gids gebruikt om met andere methodes te werken van het object Math: https://www.w3schools.com/jsref/jsref_random.asp
 
@@ -109,3 +109,11 @@ Dit voorbeeld toont een eenvoudige CSS-animatie die een knop van boven naar onde
 ### Gebruiken van een flexbox of CSS grid
 **Beschrijving:**
 In dit voorbeeld wordt een kruis met een boodschap gecreëerd met behulp van flexbox- en griddisplays. Flexbox wikkelt de body van de HTML om verticaal drie containers op een rij te zetten, en grid verdeelt binnen elke container zijn eigen items over het gekozen aantal kolommen en rijen.
+
+### Gebruik van LocalStorage
+**Beschrijving:**
+In dit voorbeeld wordt de naam van een dier en het geluid dat het maakt opgeslaan in de Local Storage van de browser. Bij het laden van de pagina worden deze waarden opgehaald en weergegeven.
+- Wanneer op de animalBtn-knop of noiseBtn-knop wordt geklikt, wordt de input opgeslagen in de Local Storage.
+- Bij het laden van de pagina worden de opgeslagen waarden opgehaald uit de Local Storage en weergegeven in de daarvoor bestemde HTML-elementen.
+
+Ik heb de volgende link als gids gebruikt: https://blog.logrocket.com/localstorage-javascript-complete-guide/
