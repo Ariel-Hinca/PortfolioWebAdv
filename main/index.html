@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Main WA Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cat Test</h1>
+<img src="JPG-NPG/CatWalking.png" alt="Cat walking" id="catWalking">
+<p>Fill the following form to find out your type of cat:</p>
+
+<form id="mainForm">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" value="Doe"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<div class="containerCat">
+    <label for="independence">How independent do you want your cat to be?</label>
+    <input type="range" name="independence" id="independence" min="0" max="100" oninput="updateIndependenceValue()">
+    <span id="independenceValue"></span>
+    <br>
+    <label for="curiosity">How curious do you want your cat to be?</label>
+    <input type="range" name="curiosity" id="curiosity" min="0" max="100" oninput="updateCuriosityValue()">
+    <span id="curiosityValue"></span>
+    <br>
+    <div class="catColor">
+        <span>What's your favourite color?</span>
+        <br>
+        <input type="radio" id="black" name="favColor" value="black">
+        <label for="black">Black</label>
+        <input type="radio" id="white" name="favColor" value="white">
+        <label for="white">White</label>
+        <input type="radio" id="grey" name="favColor" value="grey">
+        <label for="grey">Grey</label>
+        <input type="radio" id="orange" name="favColor" value="orange">
+        <label for="orange">Orange</label>
+    </div>
+</div>
+<button type="button" id="findCatBtn">Find your cat!</button>
+<br>
+<div id="result">
+    <p id="congratsMessage" style="display: none;"></p>
+    <p id="fetchData"></p>
+    <img src="" alt="Cat result" id="resultCatImage" style="display: none;">
+</div>
+
+<img src="JPG-NPG/questionCat.gif" alt="Dummy cat" id="questionCat">
+
+<script src="script.js"></script>
+</body>
+</html>
