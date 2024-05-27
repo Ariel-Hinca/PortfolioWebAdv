@@ -1,5 +1,6 @@
 # Portfolio Web Advanced
 Dit portfolio bevat aparte voorbeelden voor elk onderwerp uit het opdracht voor het vak Web Advanced. Elk onderwerp heeft zijn eigen map met een bijzondere voorbeeldbestand om het concept te demonstreren.
+Het laatste voorbeeld "main "bevat bijna alle concepten die behandeld moesten worden.
 
 ## Navigatie
 Navigeer naar de map van het gewenste onderwerp om het voorbeeld te bekijken.
@@ -117,3 +118,13 @@ In dit voorbeeld wordt de naam van een dier en het geluid dat het maakt opgeslaa
 - Bij het laden van de pagina worden de opgeslagen waarden opgehaald uit de Local Storage en weergegeven in de daarvoor bestemde HTML-elementen.
 
 Ik heb de volgende link als gids gebruikt: https://blog.logrocket.com/localstorage-javascript-complete-guide/
+
+### Main
+**Beschrijving:**
+Het laatste voorbeeld bevat een interactieve webpagina die een formulier gebruikt om gegevens van gebruikers te verzamelen en te verwerken. Het HTML-gedeelte bevat de structuur van de pagina. CSS-stijlen worden toegepast om de lay-out en visuele presentatie van de pagina te definiëren en het toevoegen van animaties.
+
+Het JavaScript-gedeelte is verantwoordelijk voor het toevoegen van interactiviteit aan de pagina. Het selecteert HTML-elementen op basis van hun id's en voegt event listeners toe om te reageren op gebruikersacties. Wanneer het formulier wordt verzonden of wanneer de gebruiker op de knop "Find your cat!" klikt, worden de ingevulde gegevens verwerkt en wordt dynamisch inhoud gegenereerd om aan de gebruiker te tonen, zoals een afbeelding van een kat en een felicitatiebericht. Daarnaast wordt via een fetch-API willekeurige kattenfeitjes opgehaald en weergegeven op de pagina.
+
+Ik heb de volgende link voor mijn fetch gebruikt: https://catfact.ninja/#/Facts/getRandomFact
+
+Ik heb ook chatGpt gebruikt om hulp te vragen bij Fetch Data, zie de volgende link: https://chatgpt.com/share/9a60a645-b059-4b40-a2fd-2058e2bca782
