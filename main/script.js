@@ -1,4 +1,4 @@
-// Gebruiken van een constante
+// Gebruiken van constantes
 const catImages = {
     black: 'JPG-NPG/persianBlackCat.jpg',
     white: 'JPG-NPG/britishWitheCat.jpg',
@@ -23,7 +23,7 @@ let questionCat = document.getElementById('questionCat');
 
 // Formulier valideren, Event aan een element koppelen en Callback function
 form.addEventListener('submit', function validateForm(event) {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
     let firstName = fnameInput.value;
     let lastName = lnameInput.value;
     if (firstName === '' || lastName === '') {
