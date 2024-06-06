@@ -127,4 +127,4 @@ Het JavaScript-gedeelte is verantwoordelijk voor het toevoegen van interactivite
 
 Ik heb de volgende link voor mijn fetch gebruikt: https://catfact.ninja/#/Facts/getRandomFact
 
-Ik heb ook chatGpt gebruikt om hulp te vragen bij Fetch Data, zie de volgende link: https://chatgpt.com/share/9a60a645-b059-4b40-a2fd-2058e2bca782
+Ik heb ook chatGpt gebruikt om hulp te vragen bij Fetch Data, zie de volgende link: https://chatgpt.com/share/32ce95a3-c4ce-4a60-85c9-694edef746ae
