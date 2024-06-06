@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Promise, Fetch Data, Async & Await, Consumer methods, JSON manipuleren en weergeven
 // Fetch to retrieve random cat-fact data
-//Eigen poging om de fetch data te linken naar de lege paragraaf
+// Eigen poging om de fetch data te linken naar de lege paragraaf
 /*async function fetchCatFact() {
     fetch('https://catfact.ninja/fact')
         .then(response => {
@@ -103,30 +103,29 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error fetching data:', error));
 }*/
 
-//De volgende 9 rijen zijn door AI gegenereerd, ik wist niet hoe de fetched data
-// te linken naar de paragraaf met id "fetchData"
-// Zie de volgende link: https://chatgpt.com/share/9a60a645-b059-4b40-a2fd-2058e2bca782
+// De volgende 9 rijen zijn door AI verbeteerd, ik wist niet hoe de fetched data te linken naar de paragraaf met id "fetchData"
+// Dit is de link naar mijn gesprek met chatGPT: https://chatgpt.com/share/32ce95a3-c4ce-4a60-85c9-694edef746ae
 async function fetchCatFact() {
     try {
         let response = await fetch('https://catfact.ninja/fact');
         let data = await response.json();
+        console.log(data.fact); //Ter controle op de console
         return data.fact;
     } catch (error) {
         console.error('Error fetching data:', error);
-        return null;
     }
 }
 
+// Async & Await
 // findCatBtn krijgt een nieuwe event om de fetch data te weergeven als de user erop klikt
-document.getElementById('findCatBtn').addEventListener('click', async () => {
+findCatBtn.addEventListener('click', async () => {
     // Controleer of een kleur is geselecteerd
     let selectedColor = document.querySelector('input[name="favColor"]:checked');
     if (selectedColor) {
-        // Run de catFact van de fetch functie
+        // Start de fetching van catFacts
         let catFact = await fetchCatFact();
         document.getElementById('fetchData').textContent = catFact;
     } else {
-        // Bij geen geselecteerde kleur wordt de user verwittigd
         alert('Choose a color!');
     }
 });
