@@ -95,7 +95,7 @@ Dit voorbeeld toont het gebruik van de fetch methode om HTML inhoud te vragen va
 Ik heb de volgende link als gids gebruikt: https://www.geeksforgeeks.org/javascript-fetch-method/
 
 **Opmerking:**
-Ik zat hier vast en kon de 'h1' van de url niet terug krijgen en daarom heb ik hulp aan AI gevraagd. Zie de link: https://chatgpt.com/share/d48e8010-3dae-48fe-8e84-a3e798a7408d
+Ik zat hier vast en kon de 'h1' van de url niet terug krijgen en daarom heb ik hulp aan AI gevraagd. Zie de link: https://chatgpt.com/share/004c9bab-47a4-4936-87fa-3c1727609c69
 
 ### JSON manipuleren en weergeven
 **Beschrijving:**
